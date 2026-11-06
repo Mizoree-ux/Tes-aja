@@ -3424,7 +3424,7 @@ local Window = WindUI:CreateWindow({
     SideBarWidth = 150,
 })
 pcall(function()
-    Window:EditOpenButton({ Title = "SkyP", Icon = "sprout", Draggable = true })
+    Window:EditOpenButton({ Title = "SkyP", Icon = "cloud-lightning", Draggable = true })
 end)
 
 -- Kalau 1 elemen error, tab lain tetap dibuat
@@ -3436,7 +3436,7 @@ end
 -- Sidebar dikelompokkan: grup utama bisa dibuka / ditutup (isinya tab-tab)
 local Groups = {}
 for _, g in ipairs({
-    { key = "farm", title = "Farming", icon = "sprout", opened = true },
+    { key = "farm", title = "Farming", icon = "cloud-lightning", opened = true },
     { key = "fitur", title = "Fitur", icon = "sparkles" },
     { key = "aman", title = "Keamanan", icon = "shield" },
     { key = "setel", title = "Setelan", icon = "settings" },
