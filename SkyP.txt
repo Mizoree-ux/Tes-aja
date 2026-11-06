@@ -3415,8 +3415,8 @@ flyButton("▼", 40, function(v) Misc.DownHeld = v end)
 ---------------------------------------------------------------------
 local Window = WindUI:CreateWindow({
     Title = "SkyP",
-    Icon = "sprout",
-    Author = "v1.1.0 | Beta Tester",
+    Icon = "cloud-lightning",
+    Author = "v1.0.2",
     Folder = "Alfian",
     Size = UDim2.fromOffset(640, 380),
     Theme = "Dark",
